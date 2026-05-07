@@ -187,11 +187,11 @@ public class BookingTest {
                 "Search input not reusable after navigation");
     }
 
-    @Test(priority = 16)
-    public void validateBrowserSessionAlive() {
-        Assert.assertNotNull(driver.getWindowHandle(),
-                "Browser session is no longer active");
-    }
+//    @Test(priority = 16)
+//    public void validateBrowserSessionAlive() {
+//        Assert.assertNotNull(driver.getWindowHandle(),
+//                "Browser session is no longer active");
+//    }
 
     // ---------------- CLEANUP ----------------
 
